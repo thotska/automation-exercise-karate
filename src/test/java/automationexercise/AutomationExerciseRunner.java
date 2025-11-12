@@ -6,7 +6,7 @@ class AutomationExerciseRunner {
     
     @Karate.Test
     Karate testAutomationExercise() {
-        return Karate.run("automationexercise").relativeTo(getClass());
+        return Karate.run().tags("@api14").relativeTo(getClass());
     }
     
 }
