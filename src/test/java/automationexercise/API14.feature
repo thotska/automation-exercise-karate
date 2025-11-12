@@ -10,4 +10,5 @@ Feature: API 14 - GET user account detail by email
     Then status 200
     And match response.responseCode == 200
     And match response.user != null
+    
 
